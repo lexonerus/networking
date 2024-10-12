@@ -8,16 +8,7 @@
 import Foundation
 
 actor NetworkService {
-    enum NetworkError: Error {
-        case authError
-        case badRequest
-        case outdated
-        case failed
-        case noData
-        case unableToDecode
-        case unknown
-    }
-
+    
     func handleNetworkResponse(_ response: HTTPURLResponse) throws {
         switch response.statusCode {
         case 200...299: return
@@ -34,20 +25,25 @@ actor NetworkService {
             throw NetworkError.unknown
         }
 
-        try handleNetworkResponse(response)
-
         guard let responseData = data else {
             throw NetworkError.noData
         }
 
         do {
-            return try JSONDecoder().decode(type, from: responseData)
+            if (200...299).contains(response.statusCode) {
+                return try JSONDecoder().decode(type, from: responseData)
+            } else {
+                let errorResponse = try JSONDecoder().decode(CommonErrorResponse.self, from: responseData)
+                throw NetworkError.apiError(errorResponse)
+            }
+        } catch let error as NetworkError {
+            throw error
         } catch {
             throw NetworkError.unableToDecode
         }
     }
 
-    func processDataWithErrorResponse<S: Decodable, E: Decodable>(
+    func processDataWithCustomErrorResponse<S: Decodable, E: Decodable>(
         successType: S.Type,
         errorType: E.Type,
         data: Data?,
@@ -78,9 +74,10 @@ actor NetworkService {
 // Пример использования:
 // let result = try await networkService.processData(type: MyResponseType.self, data: responseData, response: httpResponse)
 // 
-// let result = try await networkService.processDataWithErrorResponse(
+// let result = try await networkService.processDataWithCustomErrorResponse(
 //     successType: SuccessType.self,
 //     errorType: ErrorType.self,
 //     data: responseData,
 //     response: httpResponse
 // )
+

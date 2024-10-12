@@ -6,8 +6,15 @@
 //
 
 
-public enum NetworkError: Error {
+enum NetworkError: Error {
+    case authError
+    case badRequest
     case badResponse
+    case outdated
+    case failed
+    case noData
+    case unableToDecode
     case missingURL
-    case encodingFailed
+    case unknown
+    case apiError(CommonErrorResponse)
 }

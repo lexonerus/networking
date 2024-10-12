@@ -7,12 +7,12 @@
 
 import Foundation
 
-class Router<EndPoint: EndPointType> {
+class Provider<EndPoint: EndPointType> {
     func request(_ route: EndPoint) async throws -> (Data, HTTPURLResponse) {
         let request = try buildRequest(from: route)
         let (data, response) = try await URLSession.shared.data(for: request)
 
-        guard let httpResponse = response as? HTTPURLResponse, (200...299).contains(httpResponse.statusCode) else {
+        guard let httpResponse = response as? HTTPURLResponse else {
             throw NetworkError.badResponse
         }
 

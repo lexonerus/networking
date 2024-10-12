@@ -7,31 +7,63 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EB889863-1594-49B8-8949-D1BE1E91EF46"
-            shouldBeEnabled = "No"
+            uuid = "7AE95E15-4E4B-4D3A-A1FD-D9434EA2FD45"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NetworkingNew/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchNewMovies()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C04D53B6-9CF2-4A5D-8A39-BD5589F360CC"
+            uuid = "AF4B2935-982E-4DCF-A102-23EA26B3ED4F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkingNew/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchNewMovies()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC4118E7-6A19-4649-909C-DD2B8E2970F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkingNew/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchNewMovies()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "178BD907-8818-4197-984F-307235478E3E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NetworkingNew/NetworkLayer/Networking/Service/NetworkService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "processData(type:data:response:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -39,7 +71,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2A9A814C-E63E-4F16-AB6B-3ECF958DD15F"
+            uuid = "ACE57B4D-80A4-4AD5-B507-80E9434CC7C5"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -55,15 +87,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "006179EA-636A-4F07-B430-01F407BB2F85"
+            uuid = "9C64669C-05EA-4CB3-93EB-85D409549483"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NetworkingNew/NetworkLayer/Networking/Service/NetworkService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "processData(type:data:response:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -71,15 +103,135 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AC68B2E4-5F39-49A3-AB26-B527C2809A06"
+            uuid = "2E85F661-3634-4E92-9B71-C89C90F535BE"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NetworkingNew/NetworkLayer/Services/MovieService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getNewMovies(page:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2E85F661-3634-4E92-9B71-C89C90F535BE - c6b1f08f0b39eb5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for NetworkingNew.MovieService.getNewMovies(page: Swift.Int) async throws -&gt; Swift.Array&lt;NetworkingNew.Movie&gt;"
+                  moduleName = "NetworkingNew.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexone/Documents/MyProjects/GitHub/networking/NetworkingNew/NetworkLayer/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32">
+               </Location>
+               <Location
+                  uuid = "2E85F661-3634-4E92-9B71-C89C90F535BE - d779a947742eb55f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for NetworkingNew.MovieService.getNewMovies(page: Swift.Int) async throws -&gt; Swift.Array&lt;NetworkingNew.Movie&gt;"
+                  moduleName = "NetworkingNew.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexone/Documents/MyProjects/GitHub/networking/NetworkingNew/NetworkLayer/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "276304CB-94E8-4507-A894-BAE5607A1557"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkingNew/NetworkLayer/Services/MovieService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getNewMovies(page:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "276304CB-94E8-4507-A894-BAE5607A1557 - c6b1f08f0b39ebd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for NetworkingNew.MovieService.getNewMovies(page: Swift.Int) async throws -&gt; Swift.Array&lt;NetworkingNew.Movie&gt;"
+                  moduleName = "NetworkingNew.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexone/Documents/MyProjects/GitHub/networking/NetworkingNew/NetworkLayer/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "276304CB-94E8-4507-A894-BAE5607A1557 - d779a947742eb5d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for NetworkingNew.MovieService.getNewMovies(page: Swift.Int) async throws -&gt; Swift.Array&lt;NetworkingNew.Movie&gt;"
+                  moduleName = "NetworkingNew.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexone/Documents/MyProjects/GitHub/networking/NetworkingNew/NetworkLayer/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "276304CB-94E8-4507-A894-BAE5607A1557 - c6b1f08f0b39ebd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for NetworkingNew.MovieService.getNewMovies(page: Swift.Int) async throws -&gt; Swift.Array&lt;NetworkingNew.Movie&gt;"
+                  moduleName = "NetworkingNew.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexone/Documents/MyProjects/GitHub/networking/NetworkingNew/NetworkLayer/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "276304CB-94E8-4507-A894-BAE5607A1557 - d779a947742eb5d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for NetworkingNew.MovieService.getNewMovies(page: Swift.Int) async throws -&gt; Swift.Array&lt;NetworkingNew.Movie&gt;"
+                  moduleName = "NetworkingNew.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexone/Documents/MyProjects/GitHub/networking/NetworkingNew/NetworkLayer/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1A6C9A5-B381-4ABE-A923-A4BAA8827E52"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkingNew/NetworkLayer/Services/MovieService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "getNewMovies(page:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -87,17 +239,107 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D186BD18-7A84-4F17-9F8E-B6D71A99A41D"
+            uuid = "1C7FC1AF-6F9E-48A5-AE70-60CF2B2D7C59"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NetworkingNew/NetworkLayer/Networking/Router/Router.swift"
+            filePath = "NetworkingNew/NetworkLayer/Networking/Service/NetworkService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "request(_:)"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "processData(type:data:response:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56E1F4CD-3738-4136-83F5-28761D2CA93B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkingNew/NetworkLayer/Networking/Service/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "processData(type:data:response:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "455F74FC-4C67-4645-98E1-91DBCB778BE9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkingNew/NetworkLayer/Services/MovieService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "getNewMovies(page:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "455F74FC-4C67-4645-98E1-91DBCB778BE9 - b50ab7f2fdae808c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for NetworkingNew.MovieService.getNewMovies(page: Swift.Int) async throws -&gt; Swift.Array&lt;NetworkingNew.Movie&gt;"
+                  moduleName = "NetworkingNew.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexone/Documents/MyProjects/GitHub/networking/NetworkingNew/NetworkLayer/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "455F74FC-4C67-4645-98E1-91DBCB778BE9 - 740de431734a47b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for NetworkingNew.MovieService.getNewMovies(page: Swift.Int) async throws -&gt; Swift.Array&lt;NetworkingNew.Movie&gt;"
+                  moduleName = "NetworkingNew.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexone/Documents/MyProjects/GitHub/networking/NetworkingNew/NetworkLayer/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "455F74FC-4C67-4645-98E1-91DBCB778BE9 - 95990865cff9cc8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NetworkingNew.MovieService.getNewMovies(page: Swift.Int) async throws -&gt; Swift.Array&lt;NetworkingNew.Movie&gt;"
+                  moduleName = "NetworkingNew.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexone/Documents/MyProjects/GitHub/networking/NetworkingNew/NetworkLayer/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "455F74FC-4C67-4645-98E1-91DBCB778BE9 - c6b1f08f0b39ea89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for NetworkingNew.MovieService.getNewMovies(page: Swift.Int) async throws -&gt; Swift.Array&lt;NetworkingNew.Movie&gt;"
+                  moduleName = "NetworkingNew.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexone/Documents/MyProjects/GitHub/networking/NetworkingNew/NetworkLayer/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

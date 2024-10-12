@@ -24,8 +24,15 @@ class ViewController: UIViewController {
                 let movies = try await movieService.getNewMovies(page: 1)
                 // Обработка полученных фильмов
                 print("Получено \(movies.count) новых фильмов")
+            } catch let error as NetworkError {
+                switch error {
+                case .apiError(let errorResponse):
+                    showAlert(with: "API Error: \(errorResponse.statusMessage)")
+                default:
+                    showAlert(with: "Network error: \(error.localizedDescription)")
+                }
             } catch {
-                showAlert(with: error.localizedDescription)
+                showAlert(with: "Unexpected error: \(error.localizedDescription)")
             }
         }
     }
